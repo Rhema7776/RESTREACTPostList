@@ -1,0 +1,25 @@
+
+##Test Fetch Post List
+GET http://127.0.0.1:8000/api/posts/
+Content-Type: application/json
+
+# Test login
+POST http://127.0.0.1:8000/dj-rest-auth/login/
+Content-Type: application/json
+
+{
+    "username": "Rhemareactblog1",
+    "email": "rhemachukwumah7@gmail.com",
+    "password": "1111"
+}
+### Test signup/Registration
+POST http://127.0.0.1:8000/dj-rest-auth/registration/
+Content-Type: application/json
+
+{
+    "username": "JoH1234",
+    "email": "chukwumah@yahoo.com",
+    "password1": "TEChstudio77",
+    "password2": "TEChstudio77"
+}
+
